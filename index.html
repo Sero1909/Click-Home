@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click & Home</title>
+    <link rel="icon" type="image/x-icon" href="./imagenes/Logo-Proyecto.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./imagenes/Logo-Proyecto.png">
+
+
+    <!-- -------------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- -------------------------- -->
+
+
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="codigos.js"></script>
+</head>
+
+<body>
+    <!-- Parte de navegacion -->
+    <nav class="navbar navbar-expand-lg py-0 navbar-light bg-light fixed-top">
+
+        <div class="container JUNIOR">
+            <a href="#" class="navbar-brand"> <span class="text-primary"></span> <img src="./imagenes/Logo-Proyecto.png" alt="logo" width="120px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-start"
+                aria-controls="navbar-start" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-start">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+
+                    <li class="boton2">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+
+
+    <!-- Parte del carrusel -->
+    <div id="carouselE1" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="https://archicgi.com/wp-content/uploads/2020/12/living-room-rendering-10-examples-view07.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-caption">
+                <h5>Bienvenido</h5>
+                <p>
+                    ¡Nos alegra que estés aquí! Descubre nuestra selección de muebles cuidadosamente diseñados para transformar tu hogar en un espacio único y acogedor.
+                </p>
+                <p><a href="#" class="btn btn-primary mt-3">Leer Más</a></p>
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://renderatelier.com/wp-content/uploads/2023/02/RA_W-Residence_Final02_10192022-1400x788.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-caption">
+                <h5>Bienvenido</h5>
+                <p>
+                    ¡Nos alegra que estés aquí! Descubre nuestra selección de muebles cuidadosamente diseñados para transformar tu hogar en un espacio único y acogedor.
+                </p>
+                <p><a href="#" class="btn btn-primary mt-3">Leer Más</a></p>
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://st.hzcdn.com/simgs/pictures/living-rooms/classical-livingroom-3d-rendering-archicgi-3d-rendering-img~6e0112b60a59dbb4_14-8861-1-23b1ba1.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-caption">
+                <h5>Bienvenido</h5>
+                <p>
+                    ¡Nos alegra que estés aquí! Descubre nuestra selección de muebles cuidadosamente diseñados para transformar tu hogar en un espacio único y acogedor.
+                </p>
+                <p><a href="#" class="btn btn-primary mt-3">Leer Más</a></p>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselE1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+
+
+    <!-- Parte de los servicios -->
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <div class="card text-white text-center bg-car1 pb-2">
+                        <div class="card-body">
+                            <h3 class="card-title">Sobre nosotros</h3>
+                            <p>
+                                Somos una tienda en línea colombiana especializada en muebles y decoración para el hogar. Creemos que cada hogar tiene una historia que contar, y nuestro propósito es ayudarte a narrarla a través de piezas únicas y personalizables que reflejen tu estilo. Combinamos diseño innovador, materiales de alta calidad y precios accesibles para ofrecer soluciones que se adapten a tus necesidades y presupuesto.
+
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <div class="card text-white text-center bg-car2 pb-2">
+                        <div class="card-body">
+                            <h3 class="card-title">Misión</h3>
+                            <p>
+                                Brindar a nuestros clientes soluciones innovadoras y accesibles en muebles y decoración para el hogar, combinando calidad, diseño personalizado y precios competitivos. Buscamos transformar los espacios en reflejos únicos de personalidad y estilo, fomentando la creatividad y el confort en cada rincón del hogar.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 mb-3">
+                    <div class="card text-white text-center bg-car3 pb-2">
+                        <div class="card-body">
+                            <h3 class="card-title">Visión</h3>
+                            <p>
+                                Convertirnos en la plataforma líder en Colombia para la compra de muebles y objetos de decoración personalizados, destacándonos por nuestra excelencia en el diseño, el compromiso con la satisfacción del cliente y la implementación de tecnologías modernas que faciliten una experiencia de compra única y personalizada
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Parte de servicios iconos -->
+    <section class="section-icons">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4 box-icons">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-airplane"></i>
+                        <div class="ms-4">
+                            <h3>Envio gratis</h3>
+                            <p>
+                                Envío gratis en pedidos mayores a $520.000
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 box-icons">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-cash-coin"></i>
+                        <div class="ms-4">
+                            <h3>Reembolso</h3>
+                            <p>
+                                En caso de que tengas algun problema o defecto con tu producto, puedes hacer el reclamo o dado caso te hacemos la devolución de tu dinero.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4 box-icons">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-gift-fill"></i>
+                        <div class="ms-4">
+                            <h3>Regalo</h3>
+                            <p>
+                                Recibe un bono de regalo por cada 10 compras superiores a $340.000
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    
+    
+    
+    
+    <!-- Parte de los productos -->
+    <section class="product">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="secction-header text-center pb-5">
+                        <h2>Productos</h2>
+                        <p>
+                            Descubre productos de la más alta calidad diseñados para superar tus expectativas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="./imagenes/producto 1.png" alt="mesa">
+                        </div>
+                        <div class="card-body">
+                            <p>Escritorio Walker Mdf Melanina/Cacao <br> REF: 9994791</p>
+                            <h5 class="card-title">$449.990</h5>
+                           
+                            <a ;" href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="./imagenes/Producto 2.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>Lámpara de Techo Bosco Beige <br>REF: 7301880</p>
+                            <h5 class="card-title">$329.990</h5>
+                            
+                            
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="./imagenes/Producto 3.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>Lámpara de Mesa Drako <br>REF: 7300931</p>
+                            <h5 class="card-title">$159.990</h5>
+                            
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="./imagenes/Producto 4.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>Carro Tv Cronos Mdp Nature/Off White Hasta 75" <br>REF: 9995434</p>
+                            <h5 class="card-title">$699.990</h5>
+                            
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="./imagenes/Producto 5.png" alt="">
+                        </div>
+                        <div class="card-body"><p>Mesa De Noche Demy Mdp Wengue <br> REF: 6420830</p>
+                            <h5 class="card-title">$180.990</h5>
+                            <p><del>$199.990 </del> IVA incluido</p>
+
+                        
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="./imagenes/Producto 6.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>Sofácama Cajón Zenna 120cm Tela Taupe <br>REF: 3067541</p>
+                            <h5 class="card-title">$ 2.807.992</h5><p><del>$3.599.990</del> IVA incluido</p>
+                       
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="./imagenes/Producto 7.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>Sofá En L Brienz Derecho Gris Humo <br>REF: 3069670</p>
+                            <h5 class="card-title">$4.014.993</h5><p><del>$5.499.990</del> IVA incluido</p>
+                            
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-12 col-lg-3">
+                    <div class="card bg-light shadow-sm border-0 px-2 py-3 mb-4">
+                        <div class="text-center">
+                            <img src="./imagenes/Producto 8.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p>Sofá Clap en L Mallng (Pocket) Verde <br> REF: 9995367</p>
+                            <h5 class="card-title">$ 3.499.990</h5>
+                           
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Parte del banner -->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Los mejores articulos para tu hogar</h2>
+                    <p>
+                        Nuestros articulos con la mejor calidad solo para ti! <br>
+                    </p>
+                    <div>
+                        <img src="./imagenes/imagen4.5.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Parte del formulario -->
+    <section class="contact">
+        <div class="container mb-3 mb-lg-5">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="secction-header text-center pb-2 pb-lg-5">
+                        <h2>Contacto</h2>
+                        <p>
+                            ¿Tienes alguna duda? ¡Estamos aquí para ayudarte! <br> Si necesitas más información o tienes alguna pregunta,<br>
+                             déjanos tus datos y nos pondremos en contacto contigo lo antes posible.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <div class="col-12 col-nd-12 col-lg-6 pt-4 pb-4">
+                    <form action="#" class="bg-light p-4 m-auto shadow-sm">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Nombre" type="text" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Email" type="email" required>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control" placeholder="Mensaje" rows="3" required></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-lg btn-block mt-3">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Parte final -->
+    <footer class="bg-daar p-2 text-center">
+        <div class="container">
+            <p class="text-white">Todos los derechos reservados </p>
+        </div>
+    </footer>
+
+
+    <!-- --------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
